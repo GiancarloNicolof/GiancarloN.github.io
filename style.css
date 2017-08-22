@@ -1,0 +1,64 @@
+body {
+	background: #fff;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 6px solid #212C42;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+	width: 300pt;
+	height: 300pt;
+	background-image: url(Files/logo@2x.png);
+	background-size: 300pt 300pt;
+	position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%)
+}
+
+h1 {
+	color: #212C42;
+	font: 28pt;
+	position: absolute;
+	bottom: -10pt;
+	left: 15pt;
+}
+
+h1:hover {
+	text-decoration: line-through;
+}
+
+h2 {
+	width: 0; 
+	height: 0; 
+	border-bottom: 210px solid #212C42; 
+	border-left: 105px solid transparent; 
+	border-right: 105px solid transparent;
+}
+
+a {
+	color: #212C42;
+	font-size: 22pt;
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+a:hover {
+	transform: scale(0.9);
+}
+
+a:visited {
+	color: #212C42;
+}
+
+.links {
+	position: absolute;
+	right: 15pt;
+	bottom: 7pt;
+}
+
