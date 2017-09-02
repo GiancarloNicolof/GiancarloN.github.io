@@ -1,21 +1,14 @@
 body {
 	background: #fff;
-	position: fixed;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
-	border: 6px solid #212C42;
+	margin: 0;
+	height: 100vh;
+	display: flex;
 }
 
-.content {
-	width: 300pt;
-	height: 300pt;
-	background-image: url(Files/logo@2x.png);
-	background-size: 300pt 300pt;
-	position: absolute;
-	    top: 50%;
-	    left: 50%;
-	    margin-right: -50%;
-	    transform: translate(-50%, -50%)
+.text {
+	flex: 0 50%;
+	margin: auto;
+	font-family: 'Lora', serif;
+	font-size: 26pt;
+	text-align: center;
 }
