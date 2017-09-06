@@ -1,14 +1,29 @@
 body {
-	background: #fff;
-	margin: 0;
-	height: 100vh;
-	display: flex;
+  background-color: #000;
+  margin: 30pt;
+  border: 6pt solid #fff;
+  padding: 20pt;
 }
 
-.text {
-	flex: 0 50%;
-	margin: auto;
-	font-family: 'Lora', serif;
-	font-size: 26pt;
-	text-align: center;
+#morphing {
+  width: 56pt;
+  height: 56pt;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 50pt;
+  font-size: 50pt;
+  color: #fff;
+  text-align: center;
+  margin-top: 130pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
