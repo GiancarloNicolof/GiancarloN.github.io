@@ -1,29 +1,36 @@
 body {
-  background-color: #000;
-  margin: 30pt;
-  border: 6pt solid #fff;
-  padding: 20pt;
+	background: #fff;
 }
 
-#morphing {
-  width: 56pt;
-  height: 56pt;
-  margin: 0 auto;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#content{
+	height: calc(100vh - 28pt);
+	min-height: 460px;
+	max-width: calc(100vw - 28pt);
+	background: #E0B8A6;
+	margin: 14pt;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+#morphing{
+	position: absolute;
+	margin-top: 30pt;
+	margin-left: 120pt;
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 50pt;
-  font-size: 50pt;
-  color: #fff;
-  text-align: center;
-  margin-top: 130pt;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 60pt;
+	line-height:60pt;
+	text-align: center;
+	color: #14629E;
+}
+
+h1:hover {
+	color: #212C42;
+}
+
+a.github, a.github:hover, a.github:visited {
+	text-decoration: none;
 }
