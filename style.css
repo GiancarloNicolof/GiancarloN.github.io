@@ -1,36 +1,17 @@
 body {
-	background: #fff;
-}
-
-#content{
+	background: #1E222D;
 	height: calc(100vh - 28pt);
 	min-height: 460px;
 	max-width: calc(100vw - 28pt);
-	background: #E0B8A6;
-	margin: 14pt;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#morphing{
-	position: absolute;
-	margin-top: 30pt;
-	margin-left: 120pt;
-}
-
 h1 {
 	font-family: 'Playfair Display', serif;
-	font-size: 60pt;
-	line-height:60pt;
+	font-size: 30pt;
+	line-height:30pt;
 	text-align: center;
-	color: #14629E;
-}
-
-h1:hover {
-	color: #212C42;
-}
-
-a.github, a.github:hover, a.github:visited {
-	text-decoration: none;
+	color: #ffffff;
 }
