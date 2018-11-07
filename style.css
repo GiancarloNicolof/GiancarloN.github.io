@@ -1,5 +1,5 @@
 body {
-	background: #1E222D;
+	background: #fff;
 	height: calc(100vh - 28pt);
 	min-height: 460px;
 	max-width: calc(100vw - 28pt);
@@ -9,9 +9,9 @@ body {
 }
 
 h1 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Open Sans 600', sans-serif;
 	font-size: 30pt;
 	line-height:30pt;
 	text-align: center;
-	color: #ffffff;
+	color: #000;
 }
