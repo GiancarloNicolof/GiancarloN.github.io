@@ -17,29 +17,30 @@ body {
 main {
       max-width: 45vw;
       margin: 0 auto;
-      margin-top: 12rem;
+      margin-top: 5rem;
+      margin-bottom: 2rem;
   }
 
 h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 800;
   }
 
 h2, h3 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: 700;
       line-height: 1.4;
   }
 
 h3 {
-    margin-bottom: -2.7rem;
+    margin-bottom: -2.2rem;
   }
   
 p {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       font-weight: 700;
       color: #72777D;
-      margin-bottom: -2.5rem;
+      margin-bottom: -2rem;
   }
 
 a {
@@ -80,6 +81,17 @@ a:visited {
     right: 0;
   }
 
+  @media (prefers-color-scheme: dark) {
+
+    body {
+      background: rgb(19, 19, 19);
+    }
+
+    h1, h2, h3 {
+      color: rgb(240, 240, 240)
+    }
+
+  }
 
 @media screen and (min-width: 0em) and (max-width: 40em) {
     html {
