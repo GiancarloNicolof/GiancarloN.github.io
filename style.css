@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    background: #fff;
+    background: rgb(238, 238, 238);
     font-family: 'Open Sans', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing:  antialiased;
@@ -23,7 +23,12 @@ main {
 
 .content {
     margin: auto;
-    width: 660px;
+    max-width: 660px;
+  }
+
+  .responsiveImage {
+    max-width: 100%;
+    width: auto;
   }
 
 .logo {
@@ -57,14 +62,15 @@ h4 {
     margin-bottom: -2rem;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #72777D;
+    color: RGB(101, 106, 112);
   }
 
 h5 {
     text-align: center;
     font-size: 0.8rem;
     font-weight: 700;
-    color: #72777D;
+    color: RGB(101, 106, 112);
+    margin-bottom: 4em;
   }
 
 p {
@@ -83,7 +89,7 @@ p {
 }
 
 a {
-      color: #27bdff;
+      color: RGB(0, 160, 255);
       text-decoration: none;
       margin-top: -0.4rem;
   }
@@ -108,7 +114,7 @@ a:visited {
     left: 0;
     right: 100%;
     bottom: 0;
-    background: rgba(39, 189, 255, 1);
+    background: RGBA(0, 160, 255, 1);
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -124,11 +130,31 @@ a:visited {
   @media (prefers-color-scheme: dark) {
 
     body {
-      background: rgb(19, 19, 19);
+      background: rgb(26, 22, 18);
+    }
+
+    /* .myLogo {
+      filter: invert(77%) sepia(46%) saturate(236%) hue-rotate(353deg) brightness(93%) contrast(91%);
+    } */
+
+    .myLogo {
+      fill: rgb(223, 189, 146);
     }
 
     h1, h2, h3, p {
-      color: rgb(240, 240, 240)
+      color: rgb(223, 189, 146);
+    }
+
+    h4, h5 {
+      color: RGB(156, 121, 78);
+    }
+
+    a {
+      color: RGB(225, 74, 73);
+    }
+
+    .hvr-underline-from-left:before {
+      background: RGBA(225, 74, 73, 1);
     }
 
   }
@@ -142,11 +168,43 @@ a:visited {
       max-width: 85vw;
       margin-top: 6rem;
     }
+
+    p {
+      text-align: center;
+    }
+
+    .alignLeft, .alignRight {
+      float: none;
+    }
+
+    .alignRight {
+      margin-top: -0.5em;
+    }
   
   }
 
   
-  @media screen and (min-width: 40em) and (max-width: 56em) {
+  @media screen and (min-width: 40em) and (max-width: 41.5em) {
+    html {
+      font-size: 80%;
+    }
+  
+    main {
+      max-width: 80vw;
+    }
+
+    .alignLeft {
+      margin-left: 0.5em;
+    }
+
+    .alignRight {
+      margin-right: 0.5em;
+    }
+  
+  
+  }
+
+  @media screen and (min-width: 41.5em) and (max-width: 56em) {
     html {
       font-size: 80%;
     }
