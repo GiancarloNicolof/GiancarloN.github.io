@@ -1,25 +1,35 @@
-body {
-    background: rgb(238, 238, 238);
-    font-family: 'DM Serif Display', serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing:  antialiased;
-    text-rendering: optimizeLegibility;
-    margin:  auto;
-    text-align: center;
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
+body {
+  background: rgb(238, 238, 238);
+  font-size: 3rem;
+  font-family: 'DM Serif Display', serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing:  antialiased;
+  text-rendering: optimizeLegibility;
   }
 
 p {
-    font-size: 1.2rem;
     color: #000;
   }
 
-  @media (prefers-color-scheme: dark) {
+div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 
-    body {
+@media (prefers-color-scheme: dark) {
+
+  body {
       background: rgb(26, 22, 18);
-    }
+  }
 
-    p {
+  p {
       color: rgb(223, 189, 146);
-    }
+  }
+}
